@@ -1,5 +1,10 @@
 package Gilbert.Arthur;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public abstract class Account implements IAccount {
 
     private static final int STANDARD_AGENCY = 1;
@@ -33,21 +38,6 @@ public abstract class Account implements IAccount {
         accountDestination.deposit(value);
     }
 
-    public int getAgency() {
-        return agency;
-    }
-
-    public int getNumber() {
-        return number;
-    }
-
-    public double getBalance() {
-        return balance;
-    }
-
-    public  Client getClient() {
-        return this.client;
-    }
 
     protected void printInfoCommon() {
         System.out.println(String.format("Proprietor: %s", this.client.getName()));
