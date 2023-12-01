@@ -1,6 +1,9 @@
-package Gilbert.Arthur;
+package Gilbert.Arthur.Account.TypesAccounts;
 
-public class SavingsAccount extends Account{
+import Gilbert.Arthur.Account.Account;
+import Gilbert.Arthur.Client.Client;
+
+public class SavingsAccount extends Account {
 
     public SavingsAccount(Client client) {
         super(client);

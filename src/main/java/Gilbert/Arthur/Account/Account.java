@@ -1,5 +1,6 @@
-package Gilbert.Arthur;
+package Gilbert.Arthur.Account;
 
+import Gilbert.Arthur.Client.Client;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -37,7 +38,6 @@ public abstract class Account implements IAccount {
         this.withdraw(value);
         accountDestination.deposit(value);
     }
-
 
     protected void printInfoCommon() {
         System.out.println(String.format("Proprietor: %s", this.client.getName()));

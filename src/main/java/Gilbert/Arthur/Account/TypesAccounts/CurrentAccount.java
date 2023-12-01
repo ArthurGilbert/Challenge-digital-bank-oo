@@ -1,4 +1,7 @@
-package Gilbert.Arthur;
+package Gilbert.Arthur.Account.TypesAccounts;
+
+import Gilbert.Arthur.Account.Account;
+import Gilbert.Arthur.Client.Client;
 
 public class CurrentAccount extends Account {
 

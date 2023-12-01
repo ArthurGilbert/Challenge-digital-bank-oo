@@ -1,4 +1,4 @@
-package Gilbert.Arthur;
+package Gilbert.Arthur.Account;
 
 public interface IAccount {
 
